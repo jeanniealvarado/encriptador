@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="espia-removebg-preview.png" alt="logo-encriptador">
+    </header>
+    <main>
+        <label for="encriptador"></label>
+        <div class="mensaje">
+            <p>Ingresa el texto que desean encriptar o desencriptar</p>
+        <textarea id="encriptador" class="texto" cols="70" rows="10">Ingrese el texto aquí</textarea>
+        </div>
+        <div id="resultado" class="resultado">
+            <h2>Ningun mensaje fue encontrado</h2>
+            
+        </div>
+        <div class="buttons">
+            <button id="encriptarbtn" class="encriptarbtn">Encriptar</button>
+            <button id="desencriptarbtn" class="desencriptarbtn">Desencriptar</button>
+            <button id="copiar" class="copiar">Copiar</button>
+            <button id="refresh" class="refresh" ><img src="reiniciar-removebg-preview.png" alt=""></button>
+        </div>
+    </main>
+</body>
+</html>
+<script src="encriptador.js"></script>

@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: rgb(243, 236, 213);
+}
+header{
+    text-align: center;
+}
+img{
+    width: 25%;
+    height: 200px;
+}
+
+main{
+    margin: 15px;
+    padding: 15px;
+}
+.mensaje{
+    text-align: center;
+    font-size: 17px;
+}
+.texto{
+    border-radius: 10px;
+    border-color: rgb(18, 18, 59);
+    background: rgb(252, 197, 78);
+    box-shadow: 10px 14px 20px #000000;
+}
+.resultado{
+   
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+.buttons{
+    text-align: center;
+  
+}
+.encriptarbtn{
+    background: rgb(247, 166, 60);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 3px;
+ 
+}
+.encriptarbtn:hover{
+    font-size: 20px;
+    
+}
+.desencriptarbtn{
+    background: rgb(247, 230, 81);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 3px;
+}
+.desencriptarbtn:hover{
+    font-size: 20px;
+}
+.copiar{
+    background: rgb(247, 166, 60);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 3px;
+   
+}
+.copiar:hover{
+    font-size:20px ;
+}
+.refresh{
+    background: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 -140px 0 90px;
+   border: none;
+  
+}
+.refresh img:hover{
+    width: 50px;
+    height: 25%;
+}
+.refresh img{
+    width:30px;
+    height: 15%;
+   
+}
+@media (max-width: 850px) {
+    .copiar{
+        width: 15%;
+    }
+    .encriptarbtn{
+        width: 15%;
+    }
+    .desencriptarbtn{
+        width: 25%;
+    }
+    .refresh{
+        margin: 0 -80px 0 40px;
+    }
+}
+@media (min-width: 330px) and (max-width: 742px) {
+    h2{
+        font-size: xx-large;
+    }
+    p{
+        font-size: large;
+        font-weight: bold;
+    }
+    .texto{
+        width: 100%;
+    }
+}
